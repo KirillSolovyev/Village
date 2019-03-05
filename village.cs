@@ -13,7 +13,7 @@ namespace Std{      // Эта программа "создает" деревню
         public int age;
         public string gender;
 
-        public string GetName{ // Для того, чтобы не были введены неправильные данные в поля Dweller используется конструктор
+        public string GetName{ // Для того, чтобы не были введены неправильные данные в поля Dweller используется СВОЙСТВО(Propery)
             get{
                 return name;
             }
